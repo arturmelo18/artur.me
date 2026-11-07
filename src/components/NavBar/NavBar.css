@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+  background: #f8f9fa;
+  color: #212529;
+  border: 2px solid #212529;
+  margin: 10px 20px;
+  font-weight: 600;
+  box-shadow: 10px 8px #212529;
+}
+
+.tabs {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  width: 500px;
+}
