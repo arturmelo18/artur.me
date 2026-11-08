@@ -1,5 +1,6 @@
 import type { ApplicationType } from "../../types/application"
 import { Application } from "../App/Application"
+import { SpotifyPoster } from "../SpotifyPoster/SpotifyPoster"
 import "./Content.css"
 
 const apps: ApplicationType[] = [
@@ -33,6 +34,7 @@ export function Content() {
   return (
     <div className="app-content">
       <div className="apps">{ appsList }</div>
+      <SpotifyPoster />
     </div>
   )
 }
